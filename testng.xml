@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+<test name="SampleTest01">
+<classes>
+<class name="seleniumproject.Sample"/>
+<class name="seleniumproject.Sample1"/>
+</classes>
+</test>
+</suite>
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > -->
+  
+<!-- <suite name="SampleSuite2" verbose="1" >
+  <test name="SampleTest" >
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+       <class name="Activity.DataManagement" />
+    </classes>
+  </test>
+  <test name="Sample2Test" >
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="Activity.DataManagement" />
+    </classes>
+  </test>
+
+</suite> -->

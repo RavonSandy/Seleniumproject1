@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T10:56:05 IST" name="SampleSuite2" finished-at="2021-09-28T10:56:58 IST" duration-ms="53283">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T10:56:05 IST" name="SampleTest" finished-at="2021-09-28T10:56:27 IST" duration-ms="22411">
+      <class name="seleniumproject.RecorderScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumproject.RecorderScript@58695725]" started-at="2021-09-28T10:56:05 IST" name="setup" finished-at="2021-09-28T10:56:09 IST" duration-ms="3807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:seleniumproject.RecorderScript@58695725]" started-at="2021-09-28T10:56:09 IST" name="testParameterWithXML" finished-at="2021-09-28T10:56:27 IST" duration-ms="18505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- seleniumproject.RecorderScript -->
+    </test> <!-- SampleTest -->
+    <test started-at="2021-09-28T10:56:27 IST" name="Sample2Test" finished-at="2021-09-28T10:56:58 IST" duration-ms="30807">
+      <class name="seleniumproject.RecorderScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumproject.RecorderScript@47e2e487]" started-at="2021-09-28T10:56:27 IST" name="setup" finished-at="2021-09-28T10:56:35 IST" duration-ms="7605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:seleniumproject.RecorderScript@47e2e487]" started-at="2021-09-28T10:56:35 IST" name="testParameterWithXML" finished-at="2021-09-28T10:56:58 IST" duration-ms="23192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- seleniumproject.RecorderScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
