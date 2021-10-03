@@ -113,8 +113,6 @@ else{
         wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText(" Paul"))).click(); //using partial linktext
     	wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Logout"))).click();
         driver.close();
-
-
 	}
 
 }

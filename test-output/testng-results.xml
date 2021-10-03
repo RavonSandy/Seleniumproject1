@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-28T10:56:05 IST" name="SampleSuite2" finished-at="2021-09-28T10:56:58 IST" duration-ms="53283">
+  <suite name="Parallel test Suite" duration-ms="41751" started-at="2021-10-03T13:17:07 IST" finished-at="2021-10-03T13:17:49 IST">
     <groups>
     </groups>
-    <test started-at="2021-09-28T10:56:05 IST" name="SampleTest" finished-at="2021-09-28T10:56:27 IST" duration-ms="22411">
-      <class name="seleniumproject.RecorderScript">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumproject.RecorderScript@58695725]" started-at="2021-09-28T10:56:05 IST" name="setup" finished-at="2021-09-28T10:56:09 IST" duration-ms="3807" status="PASS">
+    <test name="Chrome Test" duration-ms="37181" started-at="2021-10-03T13:17:07 IST" finished-at="2021-10-03T13:17:45 IST">
+      <class name="seleniumproject.parallelTest">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@d6da883]" name="openbrowser" is-config="true" duration-ms="5091" started-at="2021-10-03T13:17:07 IST" finished-at="2021-10-03T13:17:13 IST">
           <params>
             <param index="0">
               <value>
@@ -17,16 +17,24 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testParameterWithXML()[pri:0, instance:seleniumproject.RecorderScript@58695725]" started-at="2021-09-28T10:56:09 IST" name="testParameterWithXML" finished-at="2021-09-28T10:56:27 IST" duration-ms="18505" status="PASS">
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@d6da883]" name="login_Testcase" duration-ms="8352" started-at="2021-10-03T13:17:13 IST" finished-at="2021-10-03T13:17:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- seleniumproject.RecorderScript -->
-    </test> <!-- SampleTest -->
-    <test started-at="2021-09-28T10:56:27 IST" name="Sample2Test" finished-at="2021-09-28T10:56:58 IST" duration-ms="30807">
-      <class name="seleniumproject.RecorderScript">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumproject.RecorderScript@47e2e487]" started-at="2021-09-28T10:56:27 IST" name="setup" finished-at="2021-09-28T10:56:35 IST" duration-ms="7605" status="PASS">
+        </test-method> <!-- login_Testcase -->
+        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@d6da883]" name="search_Testcase" duration-ms="20753" started-at="2021-10-03T13:17:21 IST" finished-at="2021-10-03T13:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Testcase -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@d6da883]" name="close_browser" is-config="true" duration-ms="2906" started-at="2021-10-03T13:17:42 IST" finished-at="2021-10-03T13:17:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- seleniumproject.parallelTest -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="41751" started-at="2021-10-03T13:17:07 IST" finished-at="2021-10-03T13:17:49 IST">
+      <class name="seleniumproject.parallelTest">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@44f75083]" name="openbrowser" is-config="true" duration-ms="9353" started-at="2021-10-03T13:17:07 IST" finished-at="2021-10-03T13:17:17 IST">
           <params>
             <param index="0">
               <value>
@@ -36,12 +44,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testParameterWithXML()[pri:0, instance:seleniumproject.RecorderScript@47e2e487]" started-at="2021-09-28T10:56:35 IST" name="testParameterWithXML" finished-at="2021-09-28T10:56:58 IST" duration-ms="23192" status="PASS">
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@44f75083]" name="login_Testcase" duration-ms="7784" started-at="2021-10-03T13:17:17 IST" finished-at="2021-10-03T13:17:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- seleniumproject.RecorderScript -->
-    </test> <!-- Sample2Test -->
-  </suite> <!-- SampleSuite2 -->
+        </test-method> <!-- login_Testcase -->
+        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@44f75083]" name="search_Testcase" duration-ms="20499" started-at="2021-10-03T13:17:25 IST" finished-at="2021-10-03T13:17:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Testcase -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@44f75083]" name="close_browser" is-config="true" duration-ms="4097" started-at="2021-10-03T13:17:45 IST" finished-at="2021-10-03T13:17:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- seleniumproject.parallelTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Parallel test Suite -->
 </testng-results>
