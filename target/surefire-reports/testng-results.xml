@@ -2,39 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test Suite" duration-ms="66843" started-at="2021-10-03T14:12:11 IST" finished-at="2021-10-03T14:13:18 IST">
+  <suite name="Parallel test Suite" duration-ms="63122" started-at="2021-10-03T14:27:53 IST" finished-at="2021-10-03T14:28:56 IST">
     <groups>
     </groups>
-    <test name="Firefox Test" duration-ms="63306" started-at="2021-10-03T14:12:11 IST" finished-at="2021-10-03T14:13:15 IST">
+    <test name="Chrome Test" duration-ms="57231" started-at="2021-10-03T14:27:53 IST" finished-at="2021-10-03T14:28:50 IST">
       <class name="seleniumproject.parallelTest">
-        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="openbrowser" is-config="true" duration-ms="15167" started-at="2021-10-03T14:12:11 IST" finished-at="2021-10-03T14:12:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="login_Testcase" duration-ms="8770" started-at="2021-10-03T14:12:26 IST" finished-at="2021-10-03T14:12:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Testcase -->
-        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="search_Testcase" duration-ms="29976" started-at="2021-10-03T14:12:35 IST" finished-at="2021-10-03T14:13:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_Testcase -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="close_browser" is-config="true" duration-ms="9304" started-at="2021-10-03T14:13:05 IST" finished-at="2021-10-03T14:13:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- seleniumproject.parallelTest -->
-    </test> <!-- Firefox Test -->
-    <test name="Chrome Test" duration-ms="66841" started-at="2021-10-03T14:12:11 IST" finished-at="2021-10-03T14:13:18 IST">
-      <class name="seleniumproject.parallelTest">
-        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="openbrowser" is-config="true" duration-ms="15208" started-at="2021-10-03T14:12:11 IST" finished-at="2021-10-03T14:12:26 IST">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="openbrowser" is-config="true" duration-ms="8257" started-at="2021-10-03T14:27:53 IST" finished-at="2021-10-03T14:28:01 IST">
           <params>
             <param index="0">
               <value>
@@ -45,19 +18,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="login_Testcase" duration-ms="11744" started-at="2021-10-03T14:12:26 IST" finished-at="2021-10-03T14:12:38 IST">
+        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="login_Testcase" duration-ms="10408" started-at="2021-10-03T14:28:01 IST" finished-at="2021-10-03T14:28:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Testcase -->
-        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="search_Testcase" duration-ms="36128" started-at="2021-10-03T14:12:38 IST" finished-at="2021-10-03T14:13:14 IST">
+        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="search_Testcase" duration-ms="33835" started-at="2021-10-03T14:28:12 IST" finished-at="2021-10-03T14:28:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_Testcase -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="close_browser" is-config="true" duration-ms="3724" started-at="2021-10-03T14:13:14 IST" finished-at="2021-10-03T14:13:18 IST">
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@431f1eaf]" name="close_browser" is-config="true" duration-ms="4543" started-at="2021-10-03T14:28:46 IST" finished-at="2021-10-03T14:28:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- seleniumproject.parallelTest -->
     </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="63122" started-at="2021-10-03T14:27:53 IST" finished-at="2021-10-03T14:28:56 IST">
+      <class name="seleniumproject.parallelTest">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="openbrowser" is-config="true" duration-ms="15579" started-at="2021-10-03T14:27:53 IST" finished-at="2021-10-03T14:28:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="login_Testcase()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="login_Testcase" duration-ms="9450" started-at="2021-10-03T14:28:09 IST" finished-at="2021-10-03T14:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Testcase -->
+        <test-method status="PASS" signature="search_Testcase()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="search_Testcase" duration-ms="32348" started-at="2021-10-03T14:28:18 IST" finished-at="2021-10-03T14:28:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Testcase -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:seleniumproject.parallelTest@736048ed]" name="close_browser" is-config="true" duration-ms="5679" started-at="2021-10-03T14:28:50 IST" finished-at="2021-10-03T14:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- seleniumproject.parallelTest -->
+    </test> <!-- Firefox Test -->
   </suite> <!-- Parallel test Suite -->
 </testng-results>

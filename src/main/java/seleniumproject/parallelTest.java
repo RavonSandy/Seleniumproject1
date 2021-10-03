@@ -33,8 +33,8 @@ public class parallelTest {
 		try {
 			if (browser.equalsIgnoreCase("firefox")) {
 				// create firefox instance
-				System.setProperty("webdriver.gecko.driver",
-						"C:\\Users\\santhoshg\\eclipse-workspace-learnings-selenium\\SeleniumProject\\drivers\\geckodriver.exe");
+				WebDriverManager.firefoxdriver().setup();
+				//System.setProperty("webdriver.gecko.driver","C:\\Users\\santhoshg\\eclipse-workspace-learnings-selenium\\SeleniumProject\\drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 
 			} else if (browser.equalsIgnoreCase("chrome")) {
